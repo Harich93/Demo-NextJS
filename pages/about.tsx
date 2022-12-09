@@ -1,18 +1,16 @@
 import { MainLayout } from '../layouts/MainLayout';
 
-export default function Home() {
+export default function About() {
   return (
-
-      <MainLayout>
+    <MainLayout>
         <h1 className='title'>
-          Welcome to <a href="https://nextjs.org">Home!</a>
+          Welcome to <a href="https://nextjs.org">About!</a>
         </h1>
 
         <p className='description'>
           Get started by editing{' '}
-          <code className='code'>pages/index.tsx</code>
+          <code className='code'>pages/about.tsx</code>
         </p>
-      </MainLayout>
-     
+    </MainLayout>
   )
 }

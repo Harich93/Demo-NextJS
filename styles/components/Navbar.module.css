@@ -1,0 +1,9 @@
+
+.menu-container a {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.active {
+    color: #0070f3;
+}
